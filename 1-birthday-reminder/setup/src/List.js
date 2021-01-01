@@ -1,9 +1,17 @@
 import React from 'react';
 
-const List = () => {
+const List = (aPerson) => {
+  let {id, name, age, image} = aPerson;
+  console.log(aPerson);
   return (
     <>
-      <h2>list component</h2>
+      <article className="person" key={id}>
+        <img src={image}></img>
+        <div>
+          <h4>{name}</h4>
+          <p>{age} years</p>
+        </div>
+      </article>
     </>
   );
 };
