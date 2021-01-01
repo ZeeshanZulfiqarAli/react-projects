@@ -1,3 +1,11 @@
+This is a fork of react project by John Smilga. I have added my code under the setup directory. The corresponding readme file also contains the link to live hosting of app.
+
+This was done as part of practice and with the aim of getting better at React.
+
+HTML and CSS and a bit of starting boilerplate code was provided by John. My task was to write the code only specific to the react.
+
+Axios was used to fetch the data from APIs in few projects.
+
 #### Tutorial Video
 
 (React Tutorial)[https://youtu.be/iZhV0bILFb0]
